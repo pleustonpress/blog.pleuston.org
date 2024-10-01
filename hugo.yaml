@@ -1,0 +1,115 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Pleuston Blog Archive
+theme: ["PaperMod"]
+
+copyright: "© Pleuston Press 2024"
+paginate: 5
+
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Projects
+          url: projects
+          weight: 1
+        - name: Home
+          url: /
+          weight: 1
+        - name: Archive
+          url: archives
+          weight: 2
+        - name: Search
+          url: search/
+          weight: 3
+        - name: Tags
+          url: tags/
+          weight: 4
+        - name: Website
+          url: https://pleuston.org/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  
+  env: production     # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Pleuston Blog Archive"
+  author: Pleuston
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  ShareButtons: ["twitter", "linkedin", "reddit", "telegram"]  # enable the share link on the bottom of each post
+  # comments: false
+
+  #profileMode:
+  #  enabled: false
+  #  title: PaperMod
+  #  imageUrl: "#"
+  #  imageTitle: my image
+  #  # imageWidth: 120
+  #  # imageHeight: 120
+  #  buttons:
+  #    - name: Archives
+  #      url: archives
+  #    - name: Tags
+  #      url: tags
+
+  homeInfoParams:
+    Title: "Pleuston Blog Archive"
+    Content: >
+      Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.
+       - 1. You can visit our **[website](https://pleuston.org/)** for more information.
+       - 2. You can visit terms **[here](/terms/)**.
+       - 3. About this site, read the **[about page](/about/)**.
+
+# Legal documents.
+
+# 1. Terms of Use: https://pleuston.org/terms/
+# 2. Privacy Policy: https://pleuston.org/privacy-policy/
+# 3. Cookie Policy: https://pleuston.org/cookie-policy/
+# 4. Copyright
+# 5. // Projects of white papers.
+
+
+
+
+  editPost:
+    URL: "https://github.com/pleustonpress/blog.pleuston.org"
+    Text: "Suggests and Improvements" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
