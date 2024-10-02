@@ -73,6 +73,4 @@ Thanks to all the [contributors](https://github.com/pleustonpress/blog.pleuston.
 2. The theme is released under the MIT License.
 3. The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-
-> Since file About.md needs to consider the layout, file README.md and file About.md may not be exactly the same.
-> 2024-09-18
+> 2024-10-02
