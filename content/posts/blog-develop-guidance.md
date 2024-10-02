@@ -1,7 +1,7 @@
 +++
 title = 'Blog develop guidance'
 date = 2024-10-01T23:29:43+08:00
-draft = true
+draft = false
 +++
 
 # Blog Develop Guidance

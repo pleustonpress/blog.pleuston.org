@@ -1,7 +1,7 @@
 +++
 title = 'Introduction to Blog'
 date = 2024-09-30T23:29:43+08:00
-draft = true
+draft = false
 +++
 # introduction to blog
 ## Introduction
