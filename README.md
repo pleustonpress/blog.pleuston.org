@@ -6,9 +6,16 @@
 
 ## 1. Overview
 
-null
+Blog site containing all files and articles related to the Pleuston.
+
+Aou can find the site at https://blog.pleuston.org
 
 ## 2. Contents
+
+1. Articles
+2. Blog
+3. About
+4. Communications
 
 ## 3. Deployment
 
@@ -28,8 +35,7 @@ You can access the site at https://blog.pleuston.org
 
 ### 3.4 Interface
 
-The site will proivide a uniform meta information interface for applications.
-
+The site will be publish its content through github.
 
 ## 4.Contributing
 
@@ -37,17 +43,18 @@ The site will proivide a uniform meta information interface for applications.
 
 | Author | Email | GitHub | Msg |
 | --- | --- | --- | --- |
-| pleuston | update soon | @pleustonpress | owner of repo |
-| phil616 | update soon | @phil616 | contributor |
+| pleuston | dev@tech.pleuston.org | @pleustonpress | owner of repo |
+| phil616 | phil616@tech.pleuston.org | @phil616 | contributor |
 
 ### 4.2 Team and Contact
 
-null
-
+about tech: dev@tech.pleuston.org
 
 ### 4.3 Report
 
-null
+illegal content report: report@pleuston.org
+
+domain abuse report: report@pleuston.org
 
 ## 5. Credits
 
@@ -76,4 +83,4 @@ Thanks to all the [contributors](https://github.com/pleustonpress/blog.pleuston.
 2. The theme is released under the [MIT License](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE).
 3. The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-> 2024-10-02
+> 2024-10-06
