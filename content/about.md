@@ -5,6 +5,8 @@ description = 'This is the about page.'
 +++
 # About this site
 
+Blog site containing all files and articles related to the Pleuston.
+
 ## Site
 
 ## Categories

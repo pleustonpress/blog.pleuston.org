@@ -4,3 +4,4 @@ description: "This is the terms of service page."
 type: "terms"
 ---
 # Terms of Service
+ 
