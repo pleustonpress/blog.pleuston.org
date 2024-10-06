@@ -1,6 +1,6 @@
 +++
 title = 'Proposals on Educational Safety'
-date = 2024-10-07T10:10:10+08:00
+date = 2024-10-06T10:10:10+08:00
 draft = false
 +++
 
