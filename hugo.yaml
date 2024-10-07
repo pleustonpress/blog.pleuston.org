@@ -79,6 +79,11 @@ params:
   #      url: archives
   #    - name: Tags
   #      url: tags
+# About Sitemap
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
 
   homeInfoParams:
     Title: "Pleuston Blog Archive"
