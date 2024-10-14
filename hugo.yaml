@@ -66,32 +66,43 @@ params:
   ShowToc: true
   ShareButtons: ["twitter", "linkedin", "reddit", "telegram"]  # enable the share link on the bottom of each post
   # comments: false
+  #homeInfoParams:
+  #  Title: "Pleuston Blog Archive"
+  #  Content: >
+  #    Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.
+  #     - 1. You can visit our **[website](https://pleuston.org/)** for more information.
+  #     - 2. You can visit terms **[here](/terms/)**.
+  #     - 3. About this site, read the **[about page](/about/)**.
 
-  #profileMode:
-  #  enabled: false
-  #  title: PaperMod
-  #  imageUrl: "#"
-  #  imageTitle: my image
-  #  # imageWidth: 120
-  #  # imageHeight: 120
-  #  buttons:
-  #    - name: Archives
-  #      url: archives
-  #    - name: Tags
-  #      url: tags
+  profileMode:
+    enabled: true
+    title: Pleuston Blog and Archive Site
+    imageUrl: "https://pleuston.org/images/pleuston.png"
+    imageTitle: my image
+    imageWidth: 720
+    imageHeight: 405
+    # remain 16:9 ratio
+
+    subtitle: >
+      Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.
+      You can visit our **[website](https://pleuston.org/)** for more information.
+
+      You can visit terms **[here](/terms/)**.
+
+
+      About this site, read the **[about page](/about/)**.
+
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 # About Sitemap
 sitemap:
   changefreq: monthly
   priority: 0.5
   filename: sitemap.xml
 
-  homeInfoParams:
-    Title: "Pleuston Blog Archive"
-    Content: >
-      Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.
-       - 1. You can visit our **[website](https://pleuston.org/)** for more information.
-       - 2. You can visit terms **[here](/terms/)**.
-       - 3. About this site, read the **[about page](/about/)**.
 
 # Legal documents.
 
