@@ -1,7 +1,7 @@
 +++
 title = "Speech on the topic of education security at the 12th Review Meeting"
 date = 2021-09-22T12:00:00Z
-draft = false
+draft = true
 +++
 
 # The importance of popularizing education
@@ -13,4 +13,4 @@ The whole topic of educational security is so vast that for this conference I wi
 
 Popularizing science encompasses basic disciplines, engineering disciplines, disciplines related to life experiences, and so on, but I'm not going to get into those specifics today.
 
-What I want to talk about is the terms on those  
+...
