@@ -1,6 +1,6 @@
 baseURL: https://blog.pleuston.org/
 languageCode: en-us
-title: Pleuston Blog Archive
+title: Pleuston Blog
 theme: ["PaperMod"]
 
 copyright: "© Pleuston Press 2024"
@@ -44,9 +44,9 @@ outputs:
     - HTML
     - RSS
     - JSON
-
 params:
-  
+  footer:
+    text: "" 
   env: production     # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Pleuston Blog Archive"
   author: Pleuston
@@ -84,12 +84,9 @@ params:
     # remain 16:9 ratio
 
     subtitle: >
-      Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.
-      You can visit our **[website](https://pleuston.org/)** for more information.
-
-      You can visit terms **[here](/terms/)**.
-
-
+      Welcome to Pleuston Blog, the site stores all blogs and archived documents, including articles, reports, files, blogs, and public communications.<br>
+      You can visit our **[website](https://pleuston.org/)** for more information.<br>
+      You can visit terms **[here](/terms/)**.<br>
       About this site, read the **[about page](/about/)**.
 
     buttons:
@@ -97,6 +94,23 @@ params:
         url: archives
       - name: Tags
         url: tags
+      - name: Projects
+        url: projects
+  editPost:
+    URL: "https://github.com/pleustonpress/blog.pleuston.org"
+    Text: "Suggests and Improvements" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
 # About Sitemap
 sitemap:
   changefreq: monthly
@@ -113,19 +127,3 @@ sitemap:
 # 5. // Projects of white papers.
 
 
-
-
-  editPost:
-    URL: "https://github.com/pleustonpress/blog.pleuston.org"
-    Text: "Suggests and Improvements" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  assets:
-    disableHLJS: true
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: false
